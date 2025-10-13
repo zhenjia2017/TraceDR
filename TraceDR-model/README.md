@@ -33,7 +33,7 @@ TraceDR/
 ## Dataset
 Download the [DrugRec data](https://drive.google.com/file/d/1JFopwcckmrtWtK01XQTbK5huodeaaaOR/view?usp=drive_link) and put it in ./data
 
-This dataset was created using the [DrugRecSynthesis](https://anonymous.4open.science/r/DrugRecSynthesis-1E7D)
+This dataset was created using the [DrugRecSynthesis]([https://anonymous.4open.science/r/DrugRecSynthesis-1E7D](https://github.com/zhenjia2017/TraceDR/tree/main/DrugRecSynthesis)
 
 
 ## Training
