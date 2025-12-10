@@ -1,6 +1,6 @@
 # DrugRecSynthesis
 
-A  system for generating synthetic patient data with drug recommendations, leveraging knowledge graphs and Large Language Models (LLMs) to generate Reasonable drug recommendation cases for research and development purposes.
+A  system for generating synthetic patient data with drug recommendations, leveraging knowledge graphs and Large Language Models (LLMs) to generate Reasonable drug recommendation cases for research and development purposes. The dataset is available at the [link](https://1drv.ms/u/c/3f6cea964af1d750/IQCZxlGhfHTTQJXLKgeENFf7AbWRHmZX6WnpJdLVcv-XsB4?e=b8yw3a).
 
 ## Overview
 
