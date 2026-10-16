@@ -25,8 +25,10 @@ The generated data follows medical logic and constraints to ensure realistic sce
 5. **Data Analyzer (`DataAnalyzer`)**: Provides statistical analysis of generated data
 
 ### Knowledge Sources
-The knowledge graph used in this system comes from: https://github.com/zhenjia2017/RDUKG
 
+Our knowledge graph is derived from [RDUKG](https://github.com/zhenjia2017/RDUKG) (Liao et al., 2022). The drug IDs in our graph differ from those in the original RDUKG, so please use the version released with this project rather than the upstream graph directly:
+
+- [Knowledge graph used in our experiments](https://drive.google.com/file/d/14Vja-2G2QX_dH8rshSmMcCCISSwkpWsx/view?usp=drive_link)
 
 ## Installation
 
