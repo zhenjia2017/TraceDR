@@ -35,6 +35,12 @@ Download the [DrugRec data](https://drive.google.com/file/d/1JFopwcckmrtWtK01XQT
 
 This dataset was created using the [DrugRecSynthesis]([https://anonymous.4open.science/r/DrugRecSynthesis-1E7D](https://github.com/zhenjia2017/TraceDR/tree/main/DrugRecSynthesis)
 
+We release the intermediate data used in our experiments, including the pre-split train, dev, and test sets, as well as the top-50 drugs retrieved during the retrieval stage:
+- [Intermediate data](https://drive.google.com/file/d/1ijPyNUSW6JuOmG3ldpaaSGjbtcvCRqOH/view?usp=drive_link)
+- 
+We also release the exact version of the medical knowledge graph used in the experiments:
+- [Knowledge graph](https://drive.google.com/file/d/14Vja-2G2QX_dH8rshSmMcCCISSwkpWsx/view?usp=drive_link)
+
 
 ## Training
 
@@ -82,10 +88,12 @@ python train_TraceDR.py \
 - `--emb_dimension`: Embedding dimension (default: `768`)
 - `--num_layers`: Number of GNN layers (default: `3`)
 - `--dropout`: Dropout rate (default: `0.0`)
-- `--max_entities`: Maximum number of entities (default: `100`)
+- `--max_entities`: Maximum number of entities (default: `300`)
 - `--max_evidences`: Maximum number of evidences (default: `50`)
 - `--encoder_lm`: Encoder language model (default: `BERT`)
 - `--encoder_linear`: Use linear encoder (flag)
+- `--answer_weight`: `0.7`
+- `--evidence_weight`: `0.3`
 
 ### Training Parameters
 - `--epochs`: Number of training epochs (default: `5`)
