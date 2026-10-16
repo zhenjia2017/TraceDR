@@ -37,7 +37,7 @@ This dataset was created using the [DrugRecSynthesis]([https://anonymous.4open.s
 
 We release the intermediate data used in our experiments, including the pre-split train, dev, and test sets, as well as the top-50 drugs retrieved during the retrieval stage:
 - [Intermediate data](https://drive.google.com/file/d/1ijPyNUSW6JuOmG3ldpaaSGjbtcvCRqOH/view?usp=drive_link)
-- 
+   
 We also release the exact version of the medical knowledge graph used in the experiments:
 - [Knowledge graph](https://drive.google.com/file/d/14Vja-2G2QX_dH8rshSmMcCCISSwkpWsx/view?usp=drive_link)
 
